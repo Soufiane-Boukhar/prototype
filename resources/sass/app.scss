@@ -1,0 +1,30 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~admin-lte/build/scss/adminlte';
+
+table tr th,
+table tr td {
+    text-align: center;
+}
+
+.btnAdd {
+    background-color: #627B95 !important;
+    color: #fff;
+    font-weight: bold;
+}
+
+.pagination li a {
+    background-color: #F2F2F2;
+    color: #000;
+}
+
+.pagination li a:hover {
+    color: #000;
+}
+
+.page-item.active .page-link {
+    background-color: #BCD2E8 !important;
+    border: 1px solid #F2F2F2;
+}
